@@ -1,0 +1,20 @@
+accessibility: true
+platforms:
+    - os: Windows
+      osVersion: 11
+      browserName: Chrome
+      browserVersion: latest
+      resolution: 1920x1080
+parallelsPerPlatform: 2
+buildName: bstack-robot-demo
+buildIdentifier: ${BUILD_NUMBER}
+projectName: BrowserStack Robot
+debug: true
+networkLogs: true
+consoleLogs: info
+framework: robot
+testObservability: true
+# accessibility: true
+performance: assert
+logLevel: debug
+performance: report

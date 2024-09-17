@@ -1,0 +1,5 @@
+selenium==4.15.2
+robotframework==7.0.1
+robotframework-pabot==2.6.0
+robotframework-seleniumlibrary==6.3.0
+browserstack-sdk
